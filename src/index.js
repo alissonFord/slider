@@ -1,7 +1,7 @@
 function Slider(slider) {
   if(!(slider instanceof Element)) {
     throw new Error('No slider passed in!');
-  }
+  }  
 
   this.slider = slider;
   // select the elements needed for the slider
